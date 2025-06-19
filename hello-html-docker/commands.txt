@@ -15,3 +15,30 @@
 5. Now open your browser and go to:
 
     http://localhost:8080
+
+---
+
+Tips
+
+
+You can view the running container:
+
+docker ps
+
+You can stop the container using:
+
+docker stop <container_id>
+
+---
+
+docker run - Run a new container
+docker start - Start an existing container
+docker stop - Stop a running container
+docker rm - Remove a container
+docker ps - List running containers
+docker ps -a - List all containers (running + stopped)
+docker images - List downloaded images
+docker pull - Download image from Docker Hub
+docker push - Upload image to Docker Hub
+
+
