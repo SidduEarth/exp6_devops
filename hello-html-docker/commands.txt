@@ -1,0 +1,17 @@
+1. Open Command Prompt (Windows + R → cmd)
+
+2. Go to your project folder:
+
+    cd Desktop\hello-html-docker
+
+3. Build the Docker image:
+
+    docker build -t html-hello .
+
+4. Run the container:
+
+    docker run -d -p 8080:80 html-hello
+
+5. Now open your browser and go to:
+
+    http://localhost:8080
